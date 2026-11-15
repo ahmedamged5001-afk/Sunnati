@@ -26,13 +26,13 @@ h2 {
 
 nav {
     background-color: #315c46;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 25px;
+    gap: 15px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 40px;
     border-bottom: 3px solid #b58b45;
 }
 
@@ -289,10 +289,12 @@ body {
     transform: translateY(-5px);
 }
 
+
 .sonan-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(2, 155px);
+    grid-template-rows: repeat(4, 80px);
+    justify-content: center;
     gap: 20px;
 }
 
@@ -577,3 +579,27 @@ header {
     margin: 12px auto;
 }
 
+
+/* تنسيق شريط التنقل على الموبايل */
+
+
+@media (max-width: 600px) {
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 10px 5px;
+        margin: 10px;
+    }
+
+    nav a {
+        white-space: nowrap;
+        margin: 0;
+        padding: 8px 7px;
+        font-size: 14px;
+    }
+
+}
