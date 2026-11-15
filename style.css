@@ -606,3 +606,20 @@ header {
     }
 
 }
+
+@media (max-width: 600px) {
+
+    .sonan-container {
+        grid-template-columns: repeat(2, 155px);
+        gap: 15px;
+    }
+
+    .sonan-card {
+        padding: 5px;
+    }
+
+    .sonan-card h3 {
+        font-size: 17px;
+    }
+
+}
