@@ -272,7 +272,7 @@ body {
 
 .sonan-card {
     background-color: #ffffff;
-    padding: 25px;
+    padding: 10px;
     border-radius: 12px;
     text-align: center;
     border: 1px solid #315c46;
@@ -280,6 +280,9 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-decoration: none;
     color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sonan-card:hover {
